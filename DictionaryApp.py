@@ -3,7 +3,7 @@ import difflib
 from difflib import SequenceMatcher
 
 # Read JSON File
-data = json.load(open("Dictionary+data+inside\\data.json"))
+data = json.load(open("data.json"))
 
 # Get JSON File
 def readJson(data, key):
