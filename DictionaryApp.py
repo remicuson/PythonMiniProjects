@@ -1,6 +1,5 @@
 import json
-import difflib
-from difflib import SequenceMatcher
+from difflib import get_close_matches
 
 # Read JSON File
 data = json.load(open("data.json"))
@@ -10,6 +9,19 @@ def readJson(data, key):
     if key in data:
         value = data[key]
         return (len(value), value)
+    recommended = get_close_matches(key, data.keys())[0]
+    question = input("Do you mean %s, Yes or No: " % (recommended)).lower()
+    answered = False
+    while (len(get_close_matches(key, data.keys())) > 0) and (answered == False):
+        if question == "yes":
+            value = data[recommended]
+            return (len(value), value)
+
+        elif question == "no":
+            return "Word does not exist, please double check"
+
+        else:
+            question = input("Wrong input!\nDo you mean %s, Yes or No: " % (recommended)).lower()
 
     else:
         return (-1, -1)
@@ -17,13 +29,16 @@ def readJson(data, key):
 
 # Print the derived word
 def printDef(tupWord):
-    if tupWord[0] == 1:
-        print("{} - {}".format(1, tupWord[1][0]))
-    elif tupWord[0] > 1:
-        for i in range(tupWord[0]):
-            print("{} - {}".format(i+1, tupWord[1][i]))
-    else:
-        print("Word does not exist, please double check.")
+    if isinstance(tupWord, tuple):
+        if tupWord[0] == 1:
+            print("{} - {}".format(1, tupWord[1][0]))
+        elif tupWord[0] > 1:
+            for i in range(tupWord[0]):
+                print("{} - {}".format(i+1, tupWord[1][i]))
+        else:
+            print("Word does not exist, please double check.")
+    elif isinstance(tupWord, str):
+        print(tupWord)
 
 # Main execution
 while True:
