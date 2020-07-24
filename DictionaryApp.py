@@ -9,6 +9,12 @@ def readJson(data, key):
     if key in data:
         value = data[key]
         return (len(value), value)
+    elif key.title() in data:
+        value = data[key.title()]
+        return (len(value), value)
+    elif key.upper() in data:
+        value = data[key.upper()]
+        return (len(value), value)
     recommended = get_close_matches(key, data.keys())[0]
     question = input("Do you mean %s, Yes or No: " % (recommended)).lower()
     answered = False
