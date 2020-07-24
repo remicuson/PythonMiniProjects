@@ -2,7 +2,7 @@ import json
 from difflib import get_close_matches
 
 # Read JSON File
-data = json.load(open("DictionaryApp/cdata.json"))
+data = json.load(open("DictionaryApp/data.json"))
 
 # Get JSON File
 def readJson(data, key):
