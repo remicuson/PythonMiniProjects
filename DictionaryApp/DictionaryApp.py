@@ -1,6 +1,8 @@
 import json
 from difflib import get_close_matches
 
+# This code loads a json file and query it for different words depending on what the user's input
+# the program outputs the definition of the word if the word is present
 # Read JSON File
 data = json.load(open("DictionaryApp/data.json"))
 
@@ -17,8 +19,7 @@ def readJson(data, key):
         return (len(value), value)
     recommended = get_close_matches(key, data.keys())[0]
     question = input("Do you mean %s, Yes or No: " % (recommended)).lower()
-    answered = False
-    while (len(get_close_matches(key, data.keys())) > 0) and (answered == False):
+    while (len(get_close_matches(key, data.keys())) > 0):
         if question == "yes":
             value = data[recommended]
             return (len(value), value)
