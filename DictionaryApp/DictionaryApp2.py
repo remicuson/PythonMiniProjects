@@ -39,10 +39,10 @@ def databaseQuery(key, cursor):
         print("Word does not exist")
 
 con = mysql.connector.connect(
-    user =  "ardit700_student",
-    password = "ardit700_student",
+    user="ardit700_student",
+    password="ardit700_student",
     host="108.167.140.122",
-    database= "ardit700_pm1database"
+    database="ardit700_pm1database"
 )
 
 cursor = con.cursor()
