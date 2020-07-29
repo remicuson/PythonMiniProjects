@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b0763c0c81914ca4a0c922f572297385 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b0763c0c81914ca4a0c922f572297385" ></div>
+        
+</body>
+<script>    
+    
+            var map_b0763c0c81914ca4a0c922f572297385 = L.map(
+                "map_b0763c0c81914ca4a0c922f572297385",
+                {
+                    center: [38.58, -99.09],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d6b2becae085427bb3b7d621dcb98eb9 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b0763c0c81914ca4a0c922f572297385);
+        
+    
+            var feature_group_315691a85b764d4fb6b868c1ca9a3a36 = L.featureGroup(
+                {}
+            ).addTo(map_b0763c0c81914ca4a0c922f572297385);
+        
+    
+            var marker_00e0abf51fd84893a884aa8ab85b4074 = L.marker(
+                [48.7767982, -121.810997],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_963fbb5f17994d98aa240e3b5c790f8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_00e0abf51fd84893a884aa8ab85b4074.setIcon(icon_963fbb5f17994d98aa240e3b5c790f8e);
+        
+    
+        var popup_eddd2d06960846c6bbc97c50243e3162 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfcedf1ec6334f068ecfadc500d4a31f = $(`<div id="html_bfcedf1ec6334f068ecfadc500d4a31f" style="width: 100.0%; height: 100.0%;">3285.0 Historical</div>`)[0];
+            popup_eddd2d06960846c6bbc97c50243e3162.setContent(html_bfcedf1ec6334f068ecfadc500d4a31f);
+        
+
+        marker_00e0abf51fd84893a884aa8ab85b4074.bindPopup(popup_eddd2d06960846c6bbc97c50243e3162)
+        ;
+
+        
+    
+    
+            var marker_c03e3632b19749c096298477586c1c2d = L.marker(
+                [48.1118011, -121.1110001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_8bd1fa8b7bdb44c09ad87df15bd99755 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c03e3632b19749c096298477586c1c2d.setIcon(icon_8bd1fa8b7bdb44c09ad87df15bd99755);
+        
+    
+        var popup_7f358b255531431a8d4f779e0cb0d134 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b03d78efe3b84d0f877ee8afbd098b6d = $(`<div id="html_b03d78efe3b84d0f877ee8afbd098b6d" style="width: 100.0%; height: 100.0%;">3213.0 Tephrochronology</div>`)[0];
+            popup_7f358b255531431a8d4f779e0cb0d134.setContent(html_b03d78efe3b84d0f877ee8afbd098b6d);
+        
+
+        marker_c03e3632b19749c096298477586c1c2d.bindPopup(popup_7f358b255531431a8d4f779e0cb0d134)
+        ;
+
+        
+    
+    
+            var marker_86644aa303d44d10955a5f1a5dbf8d09 = L.marker(
+                [46.8698006, -121.7509995],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_3a77f1448e894b0d967f394ddb17c3bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_86644aa303d44d10955a5f1a5dbf8d09.setIcon(icon_3a77f1448e894b0d967f394ddb17c3bb);
+        
+    
+        var popup_a8964700b7ab4751b8d3c998f7ba2334 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_977d400a69ea46629728ca5f76ab6bd7 = $(`<div id="html_977d400a69ea46629728ca5f76ab6bd7" style="width: 100.0%; height: 100.0%;">4392.0 Dendrochronology</div>`)[0];
+            popup_a8964700b7ab4751b8d3c998f7ba2334.setContent(html_977d400a69ea46629728ca5f76ab6bd7);
+        
+
+        marker_86644aa303d44d10955a5f1a5dbf8d09.bindPopup(popup_a8964700b7ab4751b8d3c998f7ba2334)
+        ;
+
+        
+    
+    
+            var marker_81d200b26bee4469b1251ce7aca77d34 = L.marker(
+                [46.1997986, -122.1809998],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_7068742a2164447ab090b9d7aac10f5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_81d200b26bee4469b1251ce7aca77d34.setIcon(icon_7068742a2164447ab090b9d7aac10f5c);
+        
+    
+        var popup_577fb171a543444c8d3ccb3d200f03bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a42510c5d09d482d82362aa2d242b4b3 = $(`<div id="html_a42510c5d09d482d82362aa2d242b4b3" style="width: 100.0%; height: 100.0%;">2549.0 Historical</div>`)[0];
+            popup_577fb171a543444c8d3ccb3d200f03bc.setContent(html_a42510c5d09d482d82362aa2d242b4b3);
+        
+
+        marker_81d200b26bee4469b1251ce7aca77d34.bindPopup(popup_577fb171a543444c8d3ccb3d200f03bc)
+        ;
+
+        
+    
+    
+            var marker_860f866cf14341598108c69a5ac2ef8b = L.marker(
+                [46.20579910000001, -121.4909973],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_23354fec39cc4486a73e7a483565f9e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_860f866cf14341598108c69a5ac2ef8b.setIcon(icon_23354fec39cc4486a73e7a483565f9e5);
+        
+    
+        var popup_5e33f65e7df14d1cacd2078bad070223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93ad564d41844fc192ea9d86d3c65ba7 = $(`<div id="html_93ad564d41844fc192ea9d86d3c65ba7" style="width: 100.0%; height: 100.0%;">3742.0 Tephrochronology</div>`)[0];
+            popup_5e33f65e7df14d1cacd2078bad070223.setContent(html_93ad564d41844fc192ea9d86d3c65ba7);
+        
+
+        marker_860f866cf14341598108c69a5ac2ef8b.bindPopup(popup_5e33f65e7df14d1cacd2078bad070223)
+        ;
+
+        
+    
+    
+            var marker_9293d45a036d41db94c4c7009749b6e6 = L.marker(
+                [45.8797989, -122.0810013],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_52c19e4100e14074a5c4cf1189475f51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9293d45a036d41db94c4c7009749b6e6.setIcon(icon_52c19e4100e14074a5c4cf1189475f51);
+        
+    
+        var popup_16879af5e20c45f5912796de2d78f7ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfdf879eb155494bb9b97a7487d4470b = $(`<div id="html_bfdf879eb155494bb9b97a7487d4470b" style="width: 100.0%; height: 100.0%;">1329.0 Radiocarbon</div>`)[0];
+            popup_16879af5e20c45f5912796de2d78f7ff.setContent(html_bfdf879eb155494bb9b97a7487d4470b);
+        
+
+        marker_9293d45a036d41db94c4c7009749b6e6.bindPopup(popup_16879af5e20c45f5912796de2d78f7ff)
+        ;
+
+        
+    
+    
+            var marker_a5cbb454bd954cc8a52ee87d496165f7 = L.marker(
+                [45.929798100000006, -121.8209991],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_dbc58e83eca04131857cce65fed542de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a5cbb454bd954cc8a52ee87d496165f7.setIcon(icon_dbc58e83eca04131857cce65fed542de);
+        
+    
+        var popup_ea551f44593f4a6aadc4889399f53223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3473157541c241858993acc965ffd453 = $(`<div id="html_3473157541c241858993acc965ffd453" style="width: 100.0%; height: 100.0%;">1806.0 Radiocarbon</div>`)[0];
+            popup_ea551f44593f4a6aadc4889399f53223.setContent(html_3473157541c241858993acc965ffd453);
+        
+
+        marker_a5cbb454bd954cc8a52ee87d496165f7.bindPopup(popup_ea551f44593f4a6aadc4889399f53223)
+        ;
+
+        
+    
+    
+            var marker_185b67c3b2d34d30a2e847e2b99457b4 = L.marker(
+                [45.3737984, -121.6910019],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_61584ff288bc40389e7f20b32c176ae8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_185b67c3b2d34d30a2e847e2b99457b4.setIcon(icon_61584ff288bc40389e7f20b32c176ae8);
+        
+    
+        var popup_19c69dfc050041ef85e13ec029117389 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e662bea11728469198c267d256d63672 = $(`<div id="html_e662bea11728469198c267d256d63672" style="width: 100.0%; height: 100.0%;">3426.0 Historical</div>`)[0];
+            popup_19c69dfc050041ef85e13ec029117389.setContent(html_e662bea11728469198c267d256d63672);
+        
+
+        marker_185b67c3b2d34d30a2e847e2b99457b4.bindPopup(popup_19c69dfc050041ef85e13ec029117389)
+        ;
+
+        
+    
+    
+            var marker_7c561461ccdd4bbd8d37edd1f7ee94d5 = L.marker(
+                [44.691799200000005, -121.8010025],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_b92a8b44762140bd9b970a1652c2e197 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c561461ccdd4bbd8d37edd1f7ee94d5.setIcon(icon_b92a8b44762140bd9b970a1652c2e197);
+        
+    
+        var popup_d6479e1c79a0412288a66d53eaae3390 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2990752994204f72aa7a011972660a2f = $(`<div id="html_2990752994204f72aa7a011972660a2f" style="width: 100.0%; height: 100.0%;">3199.0 Varve Count</div>`)[0];
+            popup_d6479e1c79a0412288a66d53eaae3390.setContent(html_2990752994204f72aa7a011972660a2f);
+        
+
+        marker_7c561461ccdd4bbd8d37edd1f7ee94d5.bindPopup(popup_d6479e1c79a0412288a66d53eaae3390)
+        ;
+
+        
+    
+    
+            var marker_b1239c42746e483e877f16db1616eec2 = L.marker(
+                [44.4197998, -121.7710037],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_d25d3e18cd284314ae16ab6a07d6bd2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b1239c42746e483e877f16db1616eec2.setIcon(icon_d25d3e18cd284314ae16ab6a07d6bd2d);
+        
+    
+        var popup_1a62e5b3c4034d04afb9ad5240067495 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_935260bce8b547ba9456ca121fc38b8b = $(`<div id="html_935260bce8b547ba9456ca121fc38b8b" style="width: 100.0%; height: 100.0%;">1230.0 Radiocarbon</div>`)[0];
+            popup_1a62e5b3c4034d04afb9ad5240067495.setContent(html_935260bce8b547ba9456ca121fc38b8b);
+        
+
+        marker_b1239c42746e483e877f16db1616eec2.bindPopup(popup_1a62e5b3c4034d04afb9ad5240067495)
+        ;
+
+        
+    
+    
+            var marker_17a0b5b80fe1435287db4ca1b4aa71aa = L.marker(
+                [44.3797989, -121.9309998],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_972eac48689442888a03dc17562a0564 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_17a0b5b80fe1435287db4ca1b4aa71aa.setIcon(icon_972eac48689442888a03dc17562a0564);
+        
+    
+        var popup_5589fbb1e6304bacaf9c6ff72092ea10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de979cd4f72049a8a0faf07b30dfcac6 = $(`<div id="html_de979cd4f72049a8a0faf07b30dfcac6" style="width: 100.0%; height: 100.0%;">1664.0 Radiocarbon</div>`)[0];
+            popup_5589fbb1e6304bacaf9c6ff72092ea10.setContent(html_de979cd4f72049a8a0faf07b30dfcac6);
+        
+
+        marker_17a0b5b80fe1435287db4ca1b4aa71aa.bindPopup(popup_5589fbb1e6304bacaf9c6ff72092ea10)
+        ;
+
+        
+    
+    
+            var marker_98aa155e06d049bb96df34e7c82b96c8 = L.marker(
+                [44.331798600000006, -121.8310013],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_02656e2b739242de931e661158ed06c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98aa155e06d049bb96df34e7c82b96c8.setIcon(icon_02656e2b739242de931e661158ed06c2);
+        
+    
+        var popup_9117f45ee0c14f5a9d880f290c11be8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21f160916e3748b982cf242348f34b5c = $(`<div id="html_21f160916e3748b982cf242348f34b5c" style="width: 100.0%; height: 100.0%;">2376.0 Radiocarbon</div>`)[0];
+            popup_9117f45ee0c14f5a9d880f290c11be8f.setContent(html_21f160916e3748b982cf242348f34b5c);
+        
+
+        marker_98aa155e06d049bb96df34e7c82b96c8.bindPopup(popup_9117f45ee0c14f5a9d880f290c11be8f)
+        ;
+
+        
+    
+    
+            var marker_611051d9e7d84fe5aeeb91d048e33963 = L.marker(
+                [44.2848015, -121.8410034],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_1f2dded207b1408d808e881cf306c3e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_611051d9e7d84fe5aeeb91d048e33963.setIcon(icon_1f2dded207b1408d808e881cf306c3e3);
+        
+    
+        var popup_2b67bdc274e049569b2973b0a059d15f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_852877aa53ba472d9ec59479c1469fb7 = $(`<div id="html_852877aa53ba472d9ec59479c1469fb7" style="width: 100.0%; height: 100.0%;">2095.0 Radiocarbon</div>`)[0];
+            popup_2b67bdc274e049569b2973b0a059d15f.setContent(html_852877aa53ba472d9ec59479c1469fb7);
+        
+
+        marker_611051d9e7d84fe5aeeb91d048e33963.bindPopup(popup_2b67bdc274e049569b2973b0a059d15f)
+        ;
+
+        
+    
+    
+            var marker_6352130e321344889c7bc970d6839c39 = L.marker(
+                [44.1697998, -121.7710037],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_b41e2c5c6abc48c9a62870cf3b8c3fc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6352130e321344889c7bc970d6839c39.setIcon(icon_b41e2c5c6abc48c9a62870cf3b8c3fc9);
+        
+    
+        var popup_aded9e55fbd7428c800d19e98425b479 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_528c0fac1d2e4d3a8acb88926e42abad = $(`<div id="html_528c0fac1d2e4d3a8acb88926e42abad" style="width: 100.0%; height: 100.0%;">3074.0 Radiocarbon</div>`)[0];
+            popup_aded9e55fbd7428c800d19e98425b479.setContent(html_528c0fac1d2e4d3a8acb88926e42abad);
+        
+
+        marker_6352130e321344889c7bc970d6839c39.bindPopup(popup_aded9e55fbd7428c800d19e98425b479)
+        ;
+
+        
+    
+    
+            var marker_7b9cbdc4d8194acda5bfaa49dfb01f39 = L.marker(
+                [44.099800099999996, -121.7710037],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_6cfb54ceba7c4a898cb1c4ad9479aa5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7b9cbdc4d8194acda5bfaa49dfb01f39.setIcon(icon_6cfb54ceba7c4a898cb1c4ad9479aa5e);
+        
+    
+        var popup_2434f86e1b2144a698886ff9767030c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff135fb1bb35492f8c429db845306b23 = $(`<div id="html_ff135fb1bb35492f8c429db845306b23" style="width: 100.0%; height: 100.0%;">3157.0 Radiocarbon</div>`)[0];
+            popup_2434f86e1b2144a698886ff9767030c9.setContent(html_ff135fb1bb35492f8c429db845306b23);
+        
+
+        marker_7b9cbdc4d8194acda5bfaa49dfb01f39.bindPopup(popup_2434f86e1b2144a698886ff9767030c9)
+        ;
+
+        
+    
+    
+            var marker_f6aa67d3cd6f49d98044d57db99636a4 = L.marker(
+                [43.978801700000005, -121.6809998],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_a71c5715db704b4796b1e1ad0d56148e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6aa67d3cd6f49d98044d57db99636a4.setIcon(icon_a71c5715db704b4796b1e1ad0d56148e);
+        
+    
+        var popup_d03ba15b93644d98a2bd77e3326a7447 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4822bd0f39442b3ad3c9f92d7a8b9a5 = $(`<div id="html_f4822bd0f39442b3ad3c9f92d7a8b9a5" style="width: 100.0%; height: 100.0%;">2763.0 Tephrochronology</div>`)[0];
+            popup_d03ba15b93644d98a2bd77e3326a7447.setContent(html_f4822bd0f39442b3ad3c9f92d7a8b9a5);
+        
+
+        marker_f6aa67d3cd6f49d98044d57db99636a4.bindPopup(popup_d03ba15b93644d98a2bd77e3326a7447)
+        ;
+
+        
+    
+    
+            var marker_f6c61a343d934e10872e8e2c44f2ac80 = L.marker(
+                [43.7218018, -121.2210007],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_2e58baab1c564bfe96a94ef03dbcf57b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6c61a343d934e10872e8e2c44f2ac80.setIcon(icon_2e58baab1c564bfe96a94ef03dbcf57b);
+        
+    
+        var popup_348f3e0014ab447b9049f5a13ff2d705 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f428e762707a465c804cd71e3e90e529 = $(`<div id="html_f428e762707a465c804cd71e3e90e529" style="width: 100.0%; height: 100.0%;">2434.0 Radiocarbon</div>`)[0];
+            popup_348f3e0014ab447b9049f5a13ff2d705.setContent(html_f428e762707a465c804cd71e3e90e529);
+        
+
+        marker_f6c61a343d934e10872e8e2c44f2ac80.bindPopup(popup_348f3e0014ab447b9049f5a13ff2d705)
+        ;
+
+        
+    
+    
+            var marker_96969d556f7a49e9854a46afc3c0daa7 = L.marker(
+                [43.569801299999995, -121.8209991],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_a7893bfce91e44789fabf130eaa1f7a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_96969d556f7a49e9854a46afc3c0daa7.setIcon(icon_a7893bfce91e44789fabf130eaa1f7a8);
+        
+    
+        var popup_65a04ca44f2b405891285c2e2637f199 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_521ffaf129fa4a5fb44289dea74a5b69 = $(`<div id="html_521ffaf129fa4a5fb44289dea74a5b69" style="width: 100.0%; height: 100.0%;">2163.0 Radiocarbon</div>`)[0];
+            popup_65a04ca44f2b405891285c2e2637f199.setContent(html_521ffaf129fa4a5fb44289dea74a5b69);
+        
+
+        marker_96969d556f7a49e9854a46afc3c0daa7.bindPopup(popup_65a04ca44f2b405891285c2e2637f199)
+        ;
+
+        
+    
+    
+            var marker_40cc7e940c9a436aba82082e7fb12453 = L.marker(
+                [43.5119019, -120.8610001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_bc12c553994f477dbfd6f33948d3b808 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_40cc7e940c9a436aba82082e7fb12453.setIcon(icon_bc12c553994f477dbfd6f33948d3b808);
+        
+    
+        var popup_e88955817a864501ab9202014c50e628 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abb9cb54acd64872ad225034e3ca704c = $(`<div id="html_abb9cb54acd64872ad225034e3ca704c" style="width: 100.0%; height: 100.0%;">1698.0 Holocene?</div>`)[0];
+            popup_e88955817a864501ab9202014c50e628.setContent(html_abb9cb54acd64872ad225034e3ca704c);
+        
+
+        marker_40cc7e940c9a436aba82082e7fb12453.bindPopup(popup_e88955817a864501ab9202014c50e628)
+        ;
+
+        
+    
+    
+            var marker_0e4ed3b1661e46a28f5ad51ae4c8560e = L.marker(
+                [43.240798999999996, -122.10099790000001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_d196b4979ce9448ebc02063ee0819718 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0e4ed3b1661e46a28f5ad51ae4c8560e.setIcon(icon_d196b4979ce9448ebc02063ee0819718);
+        
+    
+        var popup_0a46d68ac3af472b8e9230b987b316ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d3db6dd62b14b94921865438b7eb505 = $(`<div id="html_5d3db6dd62b14b94921865438b7eb505" style="width: 100.0%; height: 100.0%;">1956.0 Holocene?</div>`)[0];
+            popup_0a46d68ac3af472b8e9230b987b316ab.setContent(html_5d3db6dd62b14b94921865438b7eb505);
+        
+
+        marker_0e4ed3b1661e46a28f5ad51ae4c8560e.bindPopup(popup_0a46d68ac3af472b8e9230b987b316ab)
+        ;
+
+        
+    
+    
+            var marker_ba2e189639f442a682b4a843a9fa0e8e = L.marker(
+                [43.471900899999994, -120.7509995],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_54d3ca12c8c9429d966d615c58d3df3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ba2e189639f442a682b4a843a9fa0e8e.setIcon(icon_54d3ca12c8c9429d966d615c58d3df3a);
+        
+    
+        var popup_afa1e7933ec24cdaa7e4a9564610435a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9adf0fefd414a7c8317f02cd00b6659 = $(`<div id="html_e9adf0fefd414a7c8317f02cd00b6659" style="width: 100.0%; height: 100.0%;">1711.0 Holocene?</div>`)[0];
+            popup_afa1e7933ec24cdaa7e4a9564610435a.setContent(html_e9adf0fefd414a7c8317f02cd00b6659);
+        
+
+        marker_ba2e189639f442a682b4a843a9fa0e8e.bindPopup(popup_afa1e7933ec24cdaa7e4a9564610435a)
+        ;
+
+        
+    
+    
+            var marker_ab554816d1814e97b69e9ba79cf0d36b = L.marker(
+                [43.3609009, -120.6610031],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_0bf598a8773942279975f5a128df9d82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab554816d1814e97b69e9ba79cf0d36b.setIcon(icon_0bf598a8773942279975f5a128df9d82);
+        
+    
+        var popup_79a4caf0b27f446a9fe17f387b121c17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66a73a89c63f47cf9918db0589561563 = $(`<div id="html_66a73a89c63f47cf9918db0589561563" style="width: 100.0%; height: 100.0%;">1501.0 Holocene?</div>`)[0];
+            popup_79a4caf0b27f446a9fe17f387b121c17.setContent(html_66a73a89c63f47cf9918db0589561563);
+        
+
+        marker_ab554816d1814e97b69e9ba79cf0d36b.bindPopup(popup_79a4caf0b27f446a9fe17f387b121c17)
+        ;
+
+        
+    
+    
+            var marker_bbef84d0f5664a9a90a2fcedeb67d35c = L.marker(
+                [42.9299011, -122.1210022],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_bfc286f78297404592835f73771836e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bbef84d0f5664a9a90a2fcedeb67d35c.setIcon(icon_bfc286f78297404592835f73771836e9);
+        
+    
+        var popup_143ba474e3164cb2a6b9db719f6c731c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d3d4b3002aa4b38873f743a0f15935d = $(`<div id="html_4d3d4b3002aa4b38873f743a0f15935d" style="width: 100.0%; height: 100.0%;">2487.0 Radiocarbon</div>`)[0];
+            popup_143ba474e3164cb2a6b9db719f6c731c.setContent(html_4d3d4b3002aa4b38873f743a0f15935d);
+        
+
+        marker_bbef84d0f5664a9a90a2fcedeb67d35c.bindPopup(popup_143ba474e3164cb2a6b9db719f6c731c)
+        ;
+
+        
+    
+    
+            var marker_6529041476e343b3bd89a3a8ff49dbe9 = L.marker(
+                [44.4299011, -110.6709976],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_222ea990dc6247af86ec4a3674f26ec1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6529041476e343b3bd89a3a8ff49dbe9.setIcon(icon_222ea990dc6247af86ec4a3674f26ec1);
+        
+    
+        var popup_bbb84920ba1c40ce93140337436fb52a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92f361851cba4337801b431afd6d1542 = $(`<div id="html_92f361851cba4337801b431afd6d1542" style="width: 100.0%; height: 100.0%;">2805.0 Tephrochronology</div>`)[0];
+            popup_bbb84920ba1c40ce93140337436fb52a.setContent(html_92f361851cba4337801b431afd6d1542);
+        
+
+        marker_6529041476e343b3bd89a3a8ff49dbe9.bindPopup(popup_bbb84920ba1c40ce93140337436fb52a)
+        ;
+
+        
+    
+    
+            var marker_6955ec0cd6c54b23a098d9e2afba8baf = L.marker(
+                [43.0998993, -118.7509995],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_d950ca673d8d417ba9f72f2e343fb675 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6955ec0cd6c54b23a098d9e2afba8baf.setIcon(icon_d950ca673d8d417ba9f72f2e343fb675);
+        
+    
+        var popup_71cee1067e744b7dae5fd69a22444bc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bbbda2066f349e58390f16cd80faff0 = $(`<div id="html_6bbbda2066f349e58390f16cd80faff0" style="width: 100.0%; height: 100.0%;">1435.0 Holocene?</div>`)[0];
+            popup_71cee1067e744b7dae5fd69a22444bc4.setContent(html_6bbbda2066f349e58390f16cd80faff0);
+        
+
+        marker_6955ec0cd6c54b23a098d9e2afba8baf.bindPopup(popup_71cee1067e744b7dae5fd69a22444bc4)
+        ;
+
+        
+    
+    
+            var marker_1f6422d5208d4496b4c0884538dc66b2 = L.marker(
+                [43.1498985, -117.4710007],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_35bbfce479d44f7dbaa208016e04150a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1f6422d5208d4496b4c0884538dc66b2.setIcon(icon_35bbfce479d44f7dbaa208016e04150a);
+        
+    
+        var popup_b4244389ebe3497da008fa82bcf0ec7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2de3f17718184e869cdcd7007d78d80a = $(`<div id="html_2de3f17718184e869cdcd7007d78d80a" style="width: 100.0%; height: 100.0%;">1473.0 Radiocarbon</div>`)[0];
+            popup_b4244389ebe3497da008fa82bcf0ec7e.setContent(html_2de3f17718184e869cdcd7007d78d80a);
+        
+
+        marker_1f6422d5208d4496b4c0884538dc66b2.bindPopup(popup_b4244389ebe3497da008fa82bcf0ec7e)
+        ;
+
+        
+    
+    
+            var marker_36a3a406e5554dcd909dbfbe56d6f596 = L.marker(
+                [42.9999008, -117.8010025],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_47544fb016c64f41b0e584e63080f896 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_36a3a406e5554dcd909dbfbe56d6f596.setIcon(icon_47544fb016c64f41b0e584e63080f896);
+        
+    
+        var popup_023eff1b566743fbbea55b8e70dec6b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e912d4f1e614d0bae6d011572f073c9 = $(`<div id="html_8e912d4f1e614d0bae6d011572f073c9" style="width: 100.0%; height: 100.0%;">1700.0 Holocene?</div>`)[0];
+            popup_023eff1b566743fbbea55b8e70dec6b0.setContent(html_8e912d4f1e614d0bae6d011572f073c9);
+        
+
+        marker_36a3a406e5554dcd909dbfbe56d6f596.bindPopup(popup_023eff1b566743fbbea55b8e70dec6b0)
+        ;
+
+        
+    
+    
+            var marker_3fb6b11036aa469cada6334812d83924 = L.marker(
+                [43.419899, -113.5009995],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_b3740890857e4f5a83921bea61643719 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3fb6b11036aa469cada6334812d83924.setIcon(icon_b3740890857e4f5a83921bea61643719);
+        
+    
+        var popup_5b1135b9bf2d4b3695ce140d2eb8bda1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5949741a15e24ef9ac641ac68618e5cf = $(`<div id="html_5949741a15e24ef9ac641ac68618e5cf" style="width: 100.0%; height: 100.0%;">2005.0 Radiocarbon</div>`)[0];
+            popup_5b1135b9bf2d4b3695ce140d2eb8bda1.setContent(html_5949741a15e24ef9ac641ac68618e5cf);
+        
+
+        marker_3fb6b11036aa469cada6334812d83924.bindPopup(popup_5b1135b9bf2d4b3695ce140d2eb8bda1)
+        ;
+
+        
+    
+    
+            var marker_d22b41d13c2d4d4f88568d65acd39324 = L.marker(
+                [43.4999008, -112.45099640000001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_e8bb396560ec4641bed414806fc6561d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d22b41d13c2d4d4f88568d65acd39324.setIcon(icon_e8bb396560ec4641bed414806fc6561d);
+        
+    
+        var popup_d235c0c382bd4a98bc85f8ad6d2bf037 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9209ff5d251f46fcbab1a0953c7bca75 = $(`<div id="html_9209ff5d251f46fcbab1a0953c7bca75" style="width: 100.0%; height: 100.0%;">1631.0 Radiocarbon</div>`)[0];
+            popup_d235c0c382bd4a98bc85f8ad6d2bf037.setContent(html_9209ff5d251f46fcbab1a0953c7bca75);
+        
+
+        marker_d22b41d13c2d4d4f88568d65acd39324.bindPopup(popup_d235c0c382bd4a98bc85f8ad6d2bf037)
+        ;
+
+        
+    
+    
+            var marker_d3f536f4259d46bab495ec22bf37d74e = L.marker(
+                [43.1799011, -114.35099790000001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_4dccce8795474575b733708617a7a02d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d3f536f4259d46bab495ec22bf37d74e.setIcon(icon_4dccce8795474575b733708617a7a02d);
+        
+    
+        var popup_3c4303dfec714abab1a169f5006f9c47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_609c83412f014aab87a19fac90e3bdfc = $(`<div id="html_609c83412f014aab87a19fac90e3bdfc" style="width: 100.0%; height: 100.0%;">1478.0 Holocene</div>`)[0];
+            popup_3c4303dfec714abab1a169f5006f9c47.setContent(html_609c83412f014aab87a19fac90e3bdfc);
+        
+
+        marker_d3f536f4259d46bab495ec22bf37d74e.bindPopup(popup_3c4303dfec714abab1a169f5006f9c47)
+        ;
+
+        
+    
+    
+            var marker_c086fe223350404ba755163773a0420b = L.marker(
+                [42.605899799999996, -117.5810013],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_1213eaf55c8341f9aed32df768bfaf9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c086fe223350404ba755163773a0420b.setIcon(icon_1213eaf55c8341f9aed32df768bfaf9d);
+        
+    
+        var popup_277ec7b066214461baadc1b90d13cb05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e406bc46c938406f98ad0554c557de8c = $(`<div id="html_e406bc46c938406f98ad0554c557de8c" style="width: 100.0%; height: 100.0%;">1418.0 Holocene?</div>`)[0];
+            popup_277ec7b066214461baadc1b90d13cb05.setContent(html_e406bc46c938406f98ad0554c557de8c);
+        
+
+        marker_c086fe223350404ba755163773a0420b.bindPopup(popup_277ec7b066214461baadc1b90d13cb05)
+        ;
+
+        
+    
+    
+            var marker_b7e62b9ee37e4a2bab50b239b99d235b = L.marker(
+                [41.579898799999995, -121.5709991],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_ffecdfcfee604d6ea918cd71e90356e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b7e62b9ee37e4a2bab50b239b99d235b.setIcon(icon_ffecdfcfee604d6ea918cd71e90356e7);
+        
+    
+        var popup_2853800fc3fa4b04a873f0fef9539eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2480f6069eb54b10b56c69a78ef3367b = $(`<div id="html_2480f6069eb54b10b56c69a78ef3367b" style="width: 100.0%; height: 100.0%;">2412.0 Radiocarbon</div>`)[0];
+            popup_2853800fc3fa4b04a873f0fef9539eb4.setContent(html_2480f6069eb54b10b56c69a78ef3367b);
+        
+
+        marker_b7e62b9ee37e4a2bab50b239b99d235b.bindPopup(popup_2853800fc3fa4b04a873f0fef9539eb4)
+        ;
+
+        
+    
+    
+            var marker_bba470ab0f304c65abdb547dcf7dadc2 = L.marker(
+                [42.8799019, -113.2210007],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_f9af6f5fb0b14f20920b866f0bdf0413 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bba470ab0f304c65abdb547dcf7dadc2.setIcon(icon_f9af6f5fb0b14f20920b866f0bdf0413);
+        
+    
+        var popup_b9b3d80447824a03921ddd83d51cc7cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22dc57b89fdb46ae9339dabf67fee01a = $(`<div id="html_22dc57b89fdb46ae9339dabf67fee01a" style="width: 100.0%; height: 100.0%;">1604.0 Radiocarbon</div>`)[0];
+            popup_b9b3d80447824a03921ddd83d51cc7cf.setContent(html_22dc57b89fdb46ae9339dabf67fee01a);
+        
+
+        marker_bba470ab0f304c65abdb547dcf7dadc2.bindPopup(popup_b9b3d80447824a03921ddd83d51cc7cf)
+        ;
+
+        
+    
+    
+            var marker_a88a4ff419d641a8900b2c2a62ce66b0 = L.marker(
+                [41.419899, -122.20099640000001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_37e518f386434c7890a0ca332163e9ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a88a4ff419d641a8900b2c2a62ce66b0.setIcon(icon_37e518f386434c7890a0ca332163e9ee);
+        
+    
+        var popup_83214af410434ab0bb7d24b04e54b7ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ab40f45199e45e8b86de3f1ebdb19d1 = $(`<div id="html_2ab40f45199e45e8b86de3f1ebdb19d1" style="width: 100.0%; height: 100.0%;">4317.0 Historical</div>`)[0];
+            popup_83214af410434ab0bb7d24b04e54b7ea.setContent(html_2ab40f45199e45e8b86de3f1ebdb19d1);
+        
+
+        marker_a88a4ff419d641a8900b2c2a62ce66b0.bindPopup(popup_83214af410434ab0bb7d24b04e54b7ea)
+        ;
+
+        
+    
+    
+            var marker_d766da36627d4acb8dd5b8b745796d59 = L.marker(
+                [41.1778984, -121.4410019],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_c05cfe8b90bb4c95921f3b7678bf1c69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d766da36627d4acb8dd5b8b745796d59.setIcon(icon_c05cfe8b90bb4c95921f3b7678bf1c69);
+        
+    
+        var popup_8ae976b4141e45fc88ff2ea535c9a125 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_812db528c7eb4be58100e047f439ee53 = $(`<div id="html_812db528c7eb4be58100e047f439ee53" style="width: 100.0%; height: 100.0%;">1174.0 Holocene?</div>`)[0];
+            popup_8ae976b4141e45fc88ff2ea535c9a125.setContent(html_812db528c7eb4be58100e047f439ee53);
+        
+
+        marker_d766da36627d4acb8dd5b8b745796d59.bindPopup(popup_8ae976b4141e45fc88ff2ea535c9a125)
+        ;
+
+        
+    
+    
+            var marker_db1ef0d339fc4b468d8c69fea81a2859 = L.marker(
+                [40.954898799999995, -121.3610001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_1d2cef64b5c34cfd895866ea741b6fd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db1ef0d339fc4b468d8c69fea81a2859.setIcon(icon_1d2cef64b5c34cfd895866ea741b6fd4);
+        
+    
+        var popup_d0c3fbd34250416395d4eec6a223f534 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f6440b8f1774fa1b00ca2d49ecb52ab = $(`<div id="html_6f6440b8f1774fa1b00ca2d49ecb52ab" style="width: 100.0%; height: 100.0%;">1259.0 Holocene?</div>`)[0];
+            popup_d0c3fbd34250416395d4eec6a223f534.setContent(html_6f6440b8f1774fa1b00ca2d49ecb52ab);
+        
+
+        marker_db1ef0d339fc4b468d8c69fea81a2859.bindPopup(popup_d0c3fbd34250416395d4eec6a223f534)
+        ;
+
+        
+    
+    
+            var marker_b12de7a89d01470fb4991a8d625ebfd0 = L.marker(
+                [40.77989960000001, -121.60099790000001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_ec7043d720984ca08a90ebc93ac635da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b12de7a89d01470fb4991a8d625ebfd0.setIcon(icon_ec7043d720984ca08a90ebc93ac635da);
+        
+    
+        var popup_433a20999f6148ea983471d89cbbc46f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_144b9f0b3f034849af48f9d753344651 = $(`<div id="html_144b9f0b3f034849af48f9d753344651" style="width: 100.0%; height: 100.0%;">1631.0 Holocene?</div>`)[0];
+            popup_433a20999f6148ea983471d89cbbc46f.setContent(html_144b9f0b3f034849af48f9d753344651);
+        
+
+        marker_b12de7a89d01470fb4991a8d625ebfd0.bindPopup(popup_433a20999f6148ea983471d89cbbc46f)
+        ;
+
+        
+    
+    
+            var marker_a9e17606993244018466cf1f446b1551 = L.marker(
+                [40.6799011, -121.5510025],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_0aea871830d144808d9307d0c462d567 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a9e17606993244018466cf1f446b1551.setIcon(icon_0aea871830d144808d9307d0c462d567);
+        
+    
+        var popup_ffdfe41787a1445da192caf1db18052a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d78765cc97e045ee8a666b076faa98cf = $(`<div id="html_d78765cc97e045ee8a666b076faa98cf" style="width: 100.0%; height: 100.0%;">2191.0 Holocene?</div>`)[0];
+            popup_ffdfe41787a1445da192caf1db18052a.setContent(html_d78765cc97e045ee8a666b076faa98cf);
+        
+
+        marker_a9e17606993244018466cf1f446b1551.bindPopup(popup_ffdfe41787a1445da192caf1db18052a)
+        ;
+
+        
+    
+    
+            var marker_a2fb1a9568da4e1b980d88139654590e = L.marker(
+                [40.6299019, -120.8310013],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_cb0cc292a8214a52b813d4f99bc0349c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2fb1a9568da4e1b980d88139654590e.setIcon(icon_cb0cc292a8214a52b813d4f99bc0349c);
+        
+    
+        var popup_2a87ecc790454262aee5dea39f0cef0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14fd5acc0990461f9f9bd77ad774e7b8 = $(`<div id="html_14fd5acc0990461f9f9bd77ad774e7b8" style="width: 100.0%; height: 100.0%;">1652.0 Holocene?</div>`)[0];
+            popup_2a87ecc790454262aee5dea39f0cef0d.setContent(html_14fd5acc0990461f9f9bd77ad774e7b8);
+        
+
+        marker_a2fb1a9568da4e1b980d88139654590e.bindPopup(popup_2a87ecc790454262aee5dea39f0cef0d)
+        ;
+
+        
+    
+    
+            var marker_0f3eee3f239c4cd8af34a7bab9644d5b = L.marker(
+                [40.491901399999996, -121.5009995],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_83bf02b4bf9b4d96af656578600a120a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0f3eee3f239c4cd8af34a7bab9644d5b.setIcon(icon_83bf02b4bf9b4d96af656578600a120a);
+        
+    
+        var popup_655c8ac0bdd24ec8be146d5a8e4551c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de527534a9d34cee954745d046da7777 = $(`<div id="html_de527534a9d34cee954745d046da7777" style="width: 100.0%; height: 100.0%;">3187.0 Historical</div>`)[0];
+            popup_655c8ac0bdd24ec8be146d5a8e4551c2.setContent(html_de527534a9d34cee954745d046da7777);
+        
+
+        marker_0f3eee3f239c4cd8af34a7bab9644d5b.bindPopup(popup_655c8ac0bdd24ec8be146d5a8e4551c2)
+        ;
+
+        
+    
+    
+            var marker_4852ea886a5b4ad5a406113aa4ef090e = L.marker(
+                [38.9698982, -122.7710037],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_a6b340034bde480eaabcef15b7448184 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4852ea886a5b4ad5a406113aa4ef090e.setIcon(icon_a6b340034bde480eaabcef15b7448184);
+        
+    
+        var popup_d33a5a3a33734954934aecca53753bf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ef774b2a2ac4f7c98ac7e93baabdd1c = $(`<div id="html_3ef774b2a2ac4f7c98ac7e93baabdd1c" style="width: 100.0%; height: 100.0%;">1439.0 Holocene</div>`)[0];
+            popup_d33a5a3a33734954934aecca53753bf7.setContent(html_3ef774b2a2ac4f7c98ac7e93baabdd1c);
+        
+
+        marker_4852ea886a5b4ad5a406113aa4ef090e.bindPopup(popup_d33a5a3a33734954934aecca53753bf7)
+        ;
+
+        
+    
+    
+            var marker_7cdb43f49bca46e6b5621ef2c9204618 = L.marker(
+                [39.3749008, -119.7210007],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_80988b62f36c4589846f1eed4f2ea1f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7cdb43f49bca46e6b5621ef2c9204618.setIcon(icon_80988b62f36c4589846f1eed4f2ea1f0);
+        
+    
+        var popup_f678c956a1164e219b2ee2d8c98bfd1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7970fe57421473ba705527a294bcfc7 = $(`<div id="html_c7970fe57421473ba705527a294bcfc7" style="width: 100.0%; height: 100.0%;">1415.0 Pleistocene-Fumarolic</div>`)[0];
+            popup_f678c956a1164e219b2ee2d8c98bfd1a.setContent(html_c7970fe57421473ba705527a294bcfc7);
+        
+
+        marker_7cdb43f49bca46e6b5621ef2c9204618.bindPopup(popup_f678c956a1164e219b2ee2d8c98bfd1a)
+        ;
+
+        
+    
+    
+            var marker_9062234ee93e43c387f5342f88a2f2c8 = L.marker(
+                [39.6500015, -107.03099820000001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_240358d27f294453ad83da1dec6e0dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9062234ee93e43c387f5342f88a2f2c8.setIcon(icon_240358d27f294453ad83da1dec6e0dc9);
+        
+    
+        var popup_56757b3b94ff4481ac863b64284d4de4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d8e88ad6b9a49c086cd4e1498eeb59c = $(`<div id="html_2d8e88ad6b9a49c086cd4e1498eeb59c" style="width: 100.0%; height: 100.0%;">2230.0 Radiocarbon</div>`)[0];
+            popup_56757b3b94ff4481ac863b64284d4de4.setContent(html_2d8e88ad6b9a49c086cd4e1498eeb59c);
+        
+
+        marker_9062234ee93e43c387f5342f88a2f2c8.bindPopup(popup_56757b3b94ff4481ac863b64284d4de4)
+        ;
+
+        
+    
+    
+            var marker_f3a2987f28374dd0a8f2bb816db1e52b = L.marker(
+                [37.9999008, -119.03099820000001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_1442c88046514adc924fa3e99fc39653 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f3a2987f28374dd0a8f2bb816db1e52b.setIcon(icon_1442c88046514adc924fa3e99fc39653);
+        
+    
+        var popup_ef422acc432a4cd0a27654a1cd77b782 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_053cb8ef5a6d4af58eb6f198f012f9ac = $(`<div id="html_053cb8ef5a6d4af58eb6f198f012f9ac" style="width: 100.0%; height: 100.0%;">2121.0 Tephrochronology</div>`)[0];
+            popup_ef422acc432a4cd0a27654a1cd77b782.setContent(html_053cb8ef5a6d4af58eb6f198f012f9ac);
+        
+
+        marker_f3a2987f28374dd0a8f2bb816db1e52b.bindPopup(popup_ef422acc432a4cd0a27654a1cd77b782)
+        ;
+
+        
+    
+    
+            var marker_4f08b86f87934a62801f1a9480be7925 = L.marker(
+                [38.970001200000006, -112.5009995],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_ee46dd2ef31b4bb795e8c635e58b5957 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4f08b86f87934a62801f1a9480be7925.setIcon(icon_ee46dd2ef31b4bb795e8c635e58b5957);
+        
+    
+        var popup_37248a9b0cdf485a93926d129eb4057d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02329d8527514b1ca5265b8375a07f6d = $(`<div id="html_02329d8527514b1ca5265b8375a07f6d" style="width: 100.0%; height: 100.0%;">1800.0 Radiocarbon</div>`)[0];
+            popup_37248a9b0cdf485a93926d129eb4057d.setContent(html_02329d8527514b1ca5265b8375a07f6d);
+        
+
+        marker_4f08b86f87934a62801f1a9480be7925.bindPopup(popup_37248a9b0cdf485a93926d129eb4057d)
+        ;
+
+        
+    
+    
+            var marker_f9ad94b8bd274a788c5934ddf6d761e3 = L.marker(
+                [37.8799019, -119.0009995],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_08d1513465d84357a6376f78dcfbf181 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f9ad94b8bd274a788c5934ddf6d761e3.setIcon(icon_08d1513465d84357a6376f78dcfbf181);
+        
+    
+        var popup_eb54674278764672b46f697bdb889a08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c93d670bc5094587a6ddd82a69dfde5a = $(`<div id="html_c93d670bc5094587a6ddd82a69dfde5a" style="width: 100.0%; height: 100.0%;">2796.0 Radiocarbon</div>`)[0];
+            popup_eb54674278764672b46f697bdb889a08.setContent(html_c93d670bc5094587a6ddd82a69dfde5a);
+        
+
+        marker_f9ad94b8bd274a788c5934ddf6d761e3.bindPopup(popup_eb54674278764672b46f697bdb889a08)
+        ;
+
+        
+    
+    
+            var marker_6d7e9e63a5da44c98c98ed853ea4df84 = L.marker(
+                [37.6918983, -119.0210037],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_2039f1e2836c4f789252186eddb160d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d7e9e63a5da44c98c98ed853ea4df84.setIcon(icon_2039f1e2836c4f789252186eddb160d9);
+        
+    
+        var popup_46e00cefda58466abb2b122661997b29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2fe5a7045b34a44ba156e838eca0a0a = $(`<div id="html_a2fe5a7045b34a44ba156e838eca0a0a" style="width: 100.0%; height: 100.0%;">2629.0 Radiocarbon</div>`)[0];
+            popup_46e00cefda58466abb2b122661997b29.setContent(html_a2fe5a7045b34a44ba156e838eca0a0a);
+        
+
+        marker_6d7e9e63a5da44c98c98ed853ea4df84.bindPopup(popup_46e00cefda58466abb2b122661997b29)
+        ;
+
+        
+    
+    
+            var marker_96f20fbcfb44481d8170783e8ea2405a = L.marker(
+                [37.6999016, -118.8710022],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_90e87923cdcb478d9ff46a9caa6f9735 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_96f20fbcfb44481d8170783e8ea2405a.setIcon(icon_90e87923cdcb478d9ff46a9caa6f9735);
+        
+    
+        var popup_0393c45ef11f4ebca0c3bf7167f58164 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d86d474aef444f6aa56d34bedaafd61 = $(`<div id="html_6d86d474aef444f6aa56d34bedaafd61" style="width: 100.0%; height: 100.0%;">3390.0 Pleistocene-Fumarolic</div>`)[0];
+            popup_0393c45ef11f4ebca0c3bf7167f58164.setContent(html_6d86d474aef444f6aa56d34bedaafd61);
+        
+
+        marker_96f20fbcfb44481d8170783e8ea2405a.bindPopup(popup_0393c45ef11f4ebca0c3bf7167f58164)
+        ;
+
+        
+    
+    
+            var marker_f0f394be2bda4180b21ca9304ab133a2 = L.marker(
+                [37.579898799999995, -119.0510025],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_34bb84cc239b42f48c7d10162e2f74cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f0f394be2bda4180b21ca9304ab133a2.setIcon(icon_34bb84cc239b42f48c7d10162e2f74cf);
+        
+    
+        var popup_ba36f738651e49c081dc8c2df7eecb7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d809916c84bd4babb7a5469fb652d1f8 = $(`<div id="html_d809916c84bd4babb7a5469fb652d1f8" style="width: 100.0%; height: 100.0%;">2748.0 Radiocarbon</div>`)[0];
+            popup_ba36f738651e49c081dc8c2df7eecb7a.setContent(html_d809916c84bd4babb7a5469fb652d1f8);
+        
+
+        marker_f0f394be2bda4180b21ca9304ab133a2.bindPopup(popup_ba36f738651e49c081dc8c2df7eecb7a)
+        ;
+
+        
+    
+    
+            var marker_00ebd5e56f124bb8b65bc23f90269fd3 = L.marker(
+                [37.0199013, -117.45099640000001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_a61c541bb518470688253c68d7e047c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_00ebd5e56f124bb8b65bc23f90269fd3.setIcon(icon_a61c541bb518470688253c68d7e047c9);
+        
+    
+        var popup_850da572da774883b113916ea943dcef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df6a0d82a755430e90352a59771b4411 = $(`<div id="html_df6a0d82a755430e90352a59771b4411" style="width: 100.0%; height: 100.0%;">752.0 Anthropology</div>`)[0];
+            popup_850da572da774883b113916ea943dcef.setContent(html_df6a0d82a755430e90352a59771b4411);
+        
+
+        marker_00ebd5e56f124bb8b65bc23f90269fd3.bindPopup(popup_850da572da774883b113916ea943dcef)
+        ;
+
+        
+    
+    
+            var marker_f8e707ac257e479a9ef5332dba4f6da7 = L.marker(
+                [37.5800018, -112.6709976],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_bfc21b4f838c468cb19d6ab51563ac77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8e707ac257e479a9ef5332dba4f6da7.setIcon(icon_bfc21b4f838c468cb19d6ab51563ac77);
+        
+    
+        var popup_15f778b216b54fb9b4d7154181c4fc66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_969049ab307d45eebe7a60506af0bad0 = $(`<div id="html_969049ab307d45eebe7a60506af0bad0" style="width: 100.0%; height: 100.0%;">2840.0 Dendrochronology</div>`)[0];
+            popup_15f778b216b54fb9b4d7154181c4fc66.setContent(html_969049ab307d45eebe7a60506af0bad0);
+        
+
+        marker_f8e707ac257e479a9ef5332dba4f6da7.bindPopup(popup_15f778b216b54fb9b4d7154181c4fc66)
+        ;
+
+        
+    
+    
+            var marker_b132ab8c5c1c41eab343664555fe527f = L.marker(
+                [37.257, -113.6210022],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_44e6c559debf437897265fdb3ba75370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b132ab8c5c1c41eab343664555fe527f.setIcon(icon_44e6c559debf437897265fdb3ba75370);
+        
+    
+        var popup_8b0654f5cfbc4ba396bdacd0844f24fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_184c58aabad84b85844d339cc2ecd76a = $(`<div id="html_184c58aabad84b85844d339cc2ecd76a" style="width: 100.0%; height: 100.0%;">1465.0 Holocene?</div>`)[0];
+            popup_8b0654f5cfbc4ba396bdacd0844f24fb.setContent(html_184c58aabad84b85844d339cc2ecd76a);
+        
+
+        marker_b132ab8c5c1c41eab343664555fe527f.bindPopup(popup_8b0654f5cfbc4ba396bdacd0844f24fb)
+        ;
+
+        
+    
+    
+            var marker_6c208454982245b996d461ad1df1d850 = L.marker(
+                [37.32799910000001, -112.40100100000001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_cc0cd135edc1458f86ba4d8e217be728 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c208454982245b996d461ad1df1d850.setIcon(icon_cc0cd135edc1458f86ba4d8e217be728);
+        
+    
+        var popup_5251a36bbca4449191820f431849570d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dee9b164a8f42578033adc80116611c = $(`<div id="html_4dee9b164a8f42578033adc80116611c" style="width: 100.0%; height: 100.0%;">2135.0 Holocene</div>`)[0];
+            popup_5251a36bbca4449191820f431849570d.setContent(html_4dee9b164a8f42578033adc80116611c);
+        
+
+        marker_6c208454982245b996d461ad1df1d850.bindPopup(popup_5251a36bbca4449191820f431849570d)
+        ;
+
+        
+    
+    
+            var marker_db40f58448354ac883d45d9fc01f5ee4 = L.marker(
+                [36.3578987, -118.3209991],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_782fece4948b4c328788a6742a1ad428 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db40f58448354ac883d45d9fc01f5ee4.setIcon(icon_782fece4948b4c328788a6742a1ad428);
+        
+    
+        var popup_e981928b59bd4939b9267a221275d706 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_048264f647ab41ef869665ad29ff16b9 = $(`<div id="html_048264f647ab41ef869665ad29ff16b9" style="width: 100.0%; height: 100.0%;">2886.0 Tephrochronology</div>`)[0];
+            popup_e981928b59bd4939b9267a221275d706.setContent(html_048264f647ab41ef869665ad29ff16b9);
+        
+
+        marker_db40f58448354ac883d45d9fc01f5ee4.bindPopup(popup_e981928b59bd4939b9267a221275d706)
+        ;
+
+        
+    
+    
+            var marker_e757aa496ca845b5960c76c75b5d7a23 = L.marker(
+                [36.02989960000001, -117.8209991],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_977d982c81ee43128ece541f9d99207b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e757aa496ca845b5960c76c75b5d7a23.setIcon(icon_977d982c81ee43128ece541f9d99207b);
+        
+    
+        var popup_e514f387d5c74a559337e5f6b705d279 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d3604e1bdd548ce85b9071e6390e1a7 = $(`<div id="html_3d3604e1bdd548ce85b9071e6390e1a7" style="width: 100.0%; height: 100.0%;">2400.0 Holocene?</div>`)[0];
+            popup_e514f387d5c74a559337e5f6b705d279.setContent(html_3d3604e1bdd548ce85b9071e6390e1a7);
+        
+
+        marker_e757aa496ca845b5960c76c75b5d7a23.bindPopup(popup_e514f387d5c74a559337e5f6b705d279)
+        ;
+
+        
+    
+    
+            var marker_879202d797d746d7b1d1fa4630469f34 = L.marker(
+                [36.3800011, -113.1309967],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_052972b5ecf64d1e994459d86088d9e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_879202d797d746d7b1d1fa4630469f34.setIcon(icon_052972b5ecf64d1e994459d86088d9e1);
+        
+    
+        var popup_f024d4a644114106adcea67f6f915260 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_920d62ef92a74eb49e79cd07c26c7bbf = $(`<div id="html_920d62ef92a74eb49e79cd07c26c7bbf" style="width: 100.0%; height: 100.0%;">1555.0 Anthropology</div>`)[0];
+            popup_f024d4a644114106adcea67f6f915260.setContent(html_920d62ef92a74eb49e79cd07c26c7bbf);
+        
+
+        marker_879202d797d746d7b1d1fa4630469f34.bindPopup(popup_f024d4a644114106adcea67f6f915260)
+        ;
+
+        
+    
+    
+            var marker_365d62eeca6549c0982874dc31724659 = L.marker(
+                [34.75, -116.6210022],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_76c12aae5dad4d51a9d315276c469d44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_365d62eeca6549c0982874dc31724659.setIcon(icon_76c12aae5dad4d51a9d315276c469d44);
+        
+    
+        var popup_98b3255d3bc74fb2b73a5e55e9c3ac67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_040bc8500c7a4313a32556b43a5f88b5 = $(`<div id="html_040bc8500c7a4313a32556b43a5f88b5" style="width: 100.0%; height: 100.0%;">1495.0 Holocene?</div>`)[0];
+            popup_98b3255d3bc74fb2b73a5e55e9c3ac67.setContent(html_040bc8500c7a4313a32556b43a5f88b5);
+        
+
+        marker_365d62eeca6549c0982874dc31724659.bindPopup(popup_98b3255d3bc74fb2b73a5e55e9c3ac67)
+        ;
+
+        
+    
+    
+            var marker_2ffd69e2af2c4cebbbca595f00da1208 = L.marker(
+                [35.8699989, -106.5709991],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_e9d70bbc43ab454db915dfc74104f8e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ffd69e2af2c4cebbbca595f00da1208.setIcon(icon_e9d70bbc43ab454db915dfc74104f8e7);
+        
+    
+        var popup_ab2f68aff03249eb9e0b9dc1a6e200c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f844fcacf24d40ec83ab63aaa8ecf30c = $(`<div id="html_f844fcacf24d40ec83ab63aaa8ecf30c" style="width: 100.0%; height: 100.0%;">3430.0 Pleistocene-Fumarolic</div>`)[0];
+            popup_ab2f68aff03249eb9e0b9dc1a6e200c0.setContent(html_f844fcacf24d40ec83ab63aaa8ecf30c);
+        
+
+        marker_2ffd69e2af2c4cebbbca595f00da1208.bindPopup(popup_ab2f68aff03249eb9e0b9dc1a6e200c0)
+        ;
+
+        
+    
+    
+            var marker_b350200ddf9046849959ba14b25c7e10 = L.marker(
+                [35.3699989, -111.5009995],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_d5c4d51a5fc14a8799171b908c50b2c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b350200ddf9046849959ba14b25c7e10.setIcon(icon_d5c4d51a5fc14a8799171b908c50b2c6);
+        
+    
+        var popup_30ba2736a54c4c8bb46a0e692a2ea88f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9030cf331774ed881c170a8533ddbd1 = $(`<div id="html_a9030cf331774ed881c170a8533ddbd1" style="width: 100.0%; height: 100.0%;">2447.0 Dendrochronology</div>`)[0];
+            popup_30ba2736a54c4c8bb46a0e692a2ea88f.setContent(html_a9030cf331774ed881c170a8533ddbd1);
+        
+
+        marker_b350200ddf9046849959ba14b25c7e10.bindPopup(popup_30ba2736a54c4c8bb46a0e692a2ea88f)
+        ;
+
+        
+    
+    
+            var marker_7fde6281482e43abafc241265d4ead98 = L.marker(
+                [34.5499992, -115.78099820000001],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_7aaf66fb6c154ad786283e462a2268b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7fde6281482e43abafc241265d4ead98.setIcon(icon_7aaf66fb6c154ad786283e462a2268b8);
+        
+    
+        var popup_b5d1a1c3c63e40be84bb31553fce1831 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73b88e02fe204604aa5eb8dcf22f5fa0 = $(`<div id="html_73b88e02fe204604aa5eb8dcf22f5fa0" style="width: 100.0%; height: 100.0%;">288.0 Holocene</div>`)[0];
+            popup_b5d1a1c3c63e40be84bb31553fce1831.setContent(html_73b88e02fe204604aa5eb8dcf22f5fa0);
+        
+
+        marker_7fde6281482e43abafc241265d4ead98.bindPopup(popup_b5d1a1c3c63e40be84bb31553fce1831)
+        ;
+
+        
+    
+    
+            var marker_2ab2af3ac6a142289ce384b9fcfab874 = L.marker(
+                [34.7999992, -108.0009995],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_418631ade48b4fa38baad3c1713d0d30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ab2af3ac6a142289ce384b9fcfab874.setIcon(icon_418631ade48b4fa38baad3c1713d0d30);
+        
+    
+        var popup_7f1d1ff2892549cf8c83982dec2f026b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32d19b64711c44909c49833e653695b8 = $(`<div id="html_32d19b64711c44909c49833e653695b8" style="width: 100.0%; height: 100.0%;">2550.0 Anthropology</div>`)[0];
+            popup_7f1d1ff2892549cf8c83982dec2f026b.setContent(html_32d19b64711c44909c49833e653695b8);
+        
+
+        marker_2ab2af3ac6a142289ce384b9fcfab874.bindPopup(popup_7f1d1ff2892549cf8c83982dec2f026b)
+        ;
+
+        
+    
+    
+            var marker_73413bac855343a5b089af5b364dc175 = L.marker(
+                [33.7801018, -105.9309998],
+                {}
+            ).addTo(feature_group_315691a85b764d4fb6b868c1ca9a3a36);
+        
+    
+            var icon_712b372eb86d45e198dfa89996e6ea69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_73413bac855343a5b089af5b364dc175.setIcon(icon_712b372eb86d45e198dfa89996e6ea69);
+        
+    
+        var popup_c171b97e756b46798ac1b564ab423396 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a179fc9818443588a1756dc8eec31f9 = $(`<div id="html_2a179fc9818443588a1756dc8eec31f9" style="width: 100.0%; height: 100.0%;">1731.0 Holocene</div>`)[0];
+            popup_c171b97e756b46798ac1b564ab423396.setContent(html_2a179fc9818443588a1756dc8eec31f9);
+        
+
+        marker_73413bac855343a5b089af5b364dc175.bindPopup(popup_c171b97e756b46798ac1b564ab423396)
+        ;
+
+        
+    
+</script>
