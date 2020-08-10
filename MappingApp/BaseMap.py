@@ -34,15 +34,17 @@ for i in range(len(elevations)):
 map = folium.Map(location=[38.58, -99.09], zoom_start=6, tiles="Stamen Terrain")
 
 # Adding a marker to the map
-fg = folium.FeatureGroup(name="My Map")
+fg_v = folium.FeatureGroup(name="Volcano Pointers")
 for coordinate, info, color in zip(coordinates, current_status, colors):
-    fg.add_child(folium.CircleMarker(location=coordinate, radius=5.5, popup=info, color='grey', weight=1, opacity=3, fill=True, fill_color=color, fill_opacity=0.7))
+    fg_v.add_child(folium.CircleMarker(location=coordinate, radius=5.5, popup=info, color='grey', weight=1, opacity=3, fill=True, fill_color=color, fill_opacity=0.7))
 
-fg.add_child(folium.GeoJson(data=open("world.json", "r", encoding='utf-8-sig').read(),
+fg_pop = folium.FeatureGroup(name="World Population HeatMap")
+fg_pop.add_child(folium.GeoJson(data=open("world.json", "r", encoding='utf-8-sig').read(),
                             style_function=lambda x: {'fillColor': 'green' if x['properties']['POP2005'] < 10000000 else
                             'orange' if 10000000 <= x['properties']['POP2005'] < 20000000 else 'red'}))
 
 
-map.add_child(fg)
+map.add_child(fg_v)
+map.add_child(fg_pop)
 map.add_child(folium.LayerControl())
 map.save("Map1.html")
